@@ -1,0 +1,423 @@
+.header {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+body {
+  background-image: url('bekron.jpg');
+   background-repeat: no-repeat;
+}
+
+.flex-container {
+  display: flex;
+  display: inherit;
+  justify-content: flex-end;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 20px;
+  width: 95%;
+  z-index: 999;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 35px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.logo {
+  width: 180px;
+  height: 50px;
+}
+
+.login {
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 125px;
+  height: 44px;
+}
+.login img{
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+}
+.awal {
+  background-image: url(../bekron.jpg);
+}
+.viapulsavip {
+  font-size: 64px;
+  color: darkorange;
+  padding-top: 1em;
+}
+.daftar_button {
+  font-size: 24px;
+  color: white;
+  padding-top: 2em;
+  border-radius: 8px;
+  text-align: center;
+  background-color: darkorange;
+  padding: 20px 20px;
+  margin-left:37%;
+}
+.potongan {
+  text-align: left;
+  margin-bottom: 23px;
+}
+.garis_pemotong {
+  padding-top: 5em;
+}
+.jasa_convert_pulsa {
+  font-size: 24px;
+  color: white;
+  margin-top: 2em;
+}
+.vip_area_khusus {
+  font-size: 36px;
+  color: darkorange;
+}
+.setelah_sekian_lama {
+  font-size: 20px;
+  padding-top: 2em;
+  color: white;     
+}
+.setelah_sekian_lama p {
+  float: left;
+  width: 200px;
+}
+.gambar_1 {
+  float: left;
+  padding-left: 10%;
+}
+.gambar_2 {
+  float: left;
+  padding-left: 10%;
+}
+.viapulsa_vip_area {
+  font-size: 24px;
+  color: white;
+}
+.keuntungan {
+font-size: 36px;
+color: darkorange;
+}
+.mendapat_rate {
+  font-size: 28px;
+  color: darkorange;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 2em;
+}
+.viapulsa_vip_akan {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+.gambar_3 {
+  float: right;
+  margin-right: 20em;
+  padding-right: 10em;
+  margin-top: -10em; 
+}
+.gambar_4 {
+  float: left;
+  margin-left: 50px;
+  padding-left: -20em;
+  margin-top: 9em; 
+}
+.mendapatkan_layanan {
+  font-size: 28px;
+  color: darkorange;
+  padding-top: 4em;
+}
+.selama_ini {
+  font-size: 20px;
+  color: white;
+  padding-top: -2em;
+}
+.free_reg {
+  font-size: 28px;
+  color: darkorange;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 2em;
+}
+.tidak_perlu_reg {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+.gambar_6 {
+  float: left;
+  margin-left: 50px;
+  padding-left: -20em;
+  margin-top: 9em; 
+}
+.mendapatkan_info {
+  font-size: 28px;
+  color: darkorange;
+  padding-top: 4em;
+}
+.sebagai_jasa {
+  font-size: 20px;
+  color: white;
+  padding-top: -2em;
+}
+.kesempatan_menang {
+  font-size: 28px;
+  color: darkorange;
+  padding-top: 2em;
+  padding-left: 50px;
+}
+.jika_transaksi {
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+}
+.gambar_7 {
+  float: right;
+}
+.garis_pemotong {
+padding-top: 1.5em;
+}
+.informasi_lebih_lanjut {
+  font-size: 18px;
+  color: darkorange;
+  text-align: right;
+  margin-right: 2em;
+  padding-top: 1em;
+  text-decoration: underline;
+}
+.viapulsa_vip_offers {
+  font-size: 24px;
+  color: white;
+  text-align: right;
+  margin-right: 8em;
+}
+.rate_convert_viapulsa {
+  font-size: 36px;
+  color: darkorange;
+  text-align: right;
+  margin-right: 5em;
+}
+.tekom_axis {
+  justify-content: center;
+  padding-top: 2em;
+}
+.gambar_eklusif {
+  padding-top: 5em;
+}
+.gambar_mobile{
+  display: none;
+}
+.convert_pulsa_vip {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 5em;
+}
+.convert_max_rate {
+  font-size: 64px;
+  color: darkorange;
+  text-align: center;
+}
+.gambar_up {
+  padding-top: 5em;
+  padding-left: 3em;
+}
+.growth_and_scale {
+  font-size: 24px;
+  color: white;
+  padding-left: 5em;
+}
+.saling_berbagi_kemudahan {
+  font-size:64px;
+  color: darkorange; 
+}
+.potongan_2 {
+  padding-left: 8em;
+}
+.daftar_button_2 {
+  background-color: forestgreen;
+  color: black;
+  font-size: 16px;
+  padding-top: 2em;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 10px;
+}
+.bg-bluee{
+  background-color: blue;
+}
+.bg-blueee {
+  background-color: blue;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-gray {
+  background-color: darkslategray;
+}
+.bg-blackk {
+  background-color: black;
+}
+#tmbl-nav{
+  display: none;
+}
+.closebtn{
+  display: none;
+}
+@media screen and (max-width:800px){
+  #tmbl-nav{
+    display: inherit;
+    color: white;
+  }
+  .closebtn{
+    display: inherit;
+  }
+  .viapulsa{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .logo{
+    width: 100px;
+    height: 30px;
+  }
+  .flex-container {
+    display: table-column ;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #F4F4F4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    margin: 0px 0px;
+  }
+  .flex-container a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FF9900;
+    transition: 0.3s;
+  }
+  .flex-container a:hover{
+    color: #f1f1f1;
+  }
+  .flex-container .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .col-md-5{
+    margin: 24px ;
+  }
+  .span {
+    margin: 15px;
+  }
+  
+  .carousel-inner{
+    margin-top: 16px;
+  }
+  .navbar{
+    margin-bottom: 0px;
+  }
+  .login{
+    justify-content: center;
+    display: contents;
+  }
+  .login img{
+    display: none;
+  }
+  .iconprovider{
+    font-size: 12px;
+  }
+  .item img{
+    border-radius: 8px;
+  }
+  .setelah_sekian_lama p{
+    width: 40%;
+  }
+.saling_berbagi_kemudahan {
+    font-size: 44px;
+  }
+.growth_and_scale {
+  padding-left: 0px;
+ }
+ .gambar_up {
+  padding-top: 5em;
+  padding-left: 0em;
+ }
+.potongan_2 {
+  padding-left: 0em;
+ }
+.convert_max_rate {
+  font-size: 44px;
+ }
+.convert_pulsa_vip {
+  font-size: 22px;
+ }
+.rate_convert_viapulsa {
+  text-align: left;
+  margin-left: 0em;
+}
+.viapulsa_vip_offers {
+  text-align: left;
+  margin-left: 0em;
+}
+.informasi_lebih_lanjut {
+  text-align: left;
+  margin-right: 0em;
+}
+.gambar_1 {
+  padding-left: 0%;
+}
+.gambar_2 {
+  padding-left: 0%;
+}
+.potongan {
+  text-align: center;
+}
+.daftar_button {
+  margin-left: 0%;
+}
+.mendapatkan_info {
+  padding-top: 1em;
+}
+.mendapatkan_layanan {
+  padding-top: 1em;
+}
+.gambar_eklusif{
+  background-size: cover;
+}
+.gambar_eklusif {
+  display: none;
+}
+.gambar_mobile{
+  display: inline;
+  padding-top: 5em;
+}
+.convert_pulsa_vip{
+  padding-top: 5em;
+}
+}
